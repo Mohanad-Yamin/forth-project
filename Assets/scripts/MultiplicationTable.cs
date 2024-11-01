@@ -5,7 +5,8 @@ using UnityEngine;
 public class MultiplicationTable : MonoBehaviour
 {
     int Multiply(int a, int b){
-        return a * b;
+        int sum = a * b;
+        return sum;
     }
     void Start()
     {
