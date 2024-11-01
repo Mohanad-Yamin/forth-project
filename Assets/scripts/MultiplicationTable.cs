@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class MultiplicationTable : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int Multiply(int a, int b){
+        return a * b;
+    }
     void Start()
     {
-        int i = 1;
-        for()
+        int Num = 5;
+        for(int i =1; i <= 10; i++)
+        {
+            int result = Multiply(Num , i);
+            Debug.Log($"{Num} * {i} = {result}");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
